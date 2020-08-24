@@ -1,10 +1,10 @@
 -- 1.) List the following details of each employee: employee number, last name, first name, sex, and salary.
 
 SELECT 
-    employees.emp_no AS "employee number",
-    employees.last_name AS "last name",
-    employees.first_name AS "first name",
-    employees.sex AS "sex",
+    employees.emp_no AS "Employee Number",
+    employees.last_name AS "Last Name",
+    employees.first_name AS "First Name",
+    employees.sex AS "Sex",
     salaries.salary AS "Salary"
 FROM employees 
 INNER JOIN salaries
