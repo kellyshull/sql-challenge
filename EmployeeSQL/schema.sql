@@ -1,4 +1,6 @@
 -- Create schemas
+-- link to schema model https://app.genmymodel.com/api/projects/_fbtMIOM1EeqgY5yD8SByCQ/diagrams/_fbtMIuM1EeqgY5yD8SByCQ/svg
+
 
 -- Create tables
 CREATE TABLE IF NOT EXISTS departments
