@@ -3,15 +3,25 @@ SELECT
     employees.emp_no AS "employee number",
     employees.last_name AS "last name",
     employees.first_name AS "first name",
-    employees.sex AS "sex"
-    -- salaries.salary AS "Salary"
--- FROM employees AND salries;
+    employees.sex AS "sex",
+    salaries.salary AS "Salary"
+FROM employees 
+INNER JOIN salaries
+ON employees.emp_no=salaries.emp_no;
 
 -- 2.) List first name, last name, and hire date for employees who were hired in 1986.
-
+SELECT 
+    employees.first_name AS "First Name",
+    employees.last_name AS "Last Name", 
+    employees.hire_date AS "Hire Date"
+FROM employees 
+WHERE hire_date >= '1986-01-01' AND hire_date <= '1986-12-31';
 
 -- 3.) List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
+SELECT 
+    
 
+FROM 
 
 -- 4.) List the department of each employee with the following information: employee number, last name, first name, and department name.
 
